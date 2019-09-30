@@ -1,0 +1,19 @@
+{
+  "name": "braddle/php-sussex",
+  "description": "Code written during TDD talk at PHP Sussex on Wednesday 2nd October 2019",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Braddle\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Braddle\\": "test"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "8.3.5"
+  }
+}
